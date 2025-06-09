@@ -1,90 +1,83 @@
 import React from "react";
 import '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faReact, faDocker, faPython } from '@fortawesome/free-brands-svg-icons';
+import { faAngular, faDocker, faMicrosoft } from '@fortawesome/free-brands-svg-icons';
 import Chip from '@mui/material/Chip';
 import '../assets/styles/Expertise.scss';
 
 const labelsFirst = [
-    "React",
-    "TypeScript",
-    "JavaScript",
-    "HTML5",
-    "CSS3",
-    "SASS",
-    "Flask",
-    "Python",
+    "Angular",
+    "C#",
     "SQL",
-    "PostgreSQL",
-    "Postman"
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Git",
 ];
 
 const labelsSecond = [
-    "Git",
-    "GitHub Actions",
-    "Docker",
-    "AWS",
-    "Azure",
-    "Linux",
-    "Snowflake",
-    "Pandas",
-    "Selenium",
+    "C++",
+    "UML",
+    "Jira",
+    "OOP",
+    "Design Patterns"
 ];
 
 const labelsThird = [
-    "OpenAI",
-    "Groq",
-    "LangChain",
-    "Qdrant",
-    "Hugging Face",
-    "LlamaIndex",
-    "Streamlit",
+    "Azure DevOps",
+    "Docker",
+    "Github",
+    "Python",
+    "Java",
+    "C",
+    "C++",
+    "OCaml"
 ];
 
 function Expertise() {
     return (
-    <div className="container" id="expertise">
-        <div className="skills-container">
-            <h1>Expertise</h1>
-            <div className="skills-grid">
-                <div className="skill">
-                    <FontAwesomeIcon icon={faReact} size="3x"/>
-                    <h3>Full Stack Web Development</h3>
-                    <p>I have built a diverse array of web applications from scratch using modern technologies such as React and Flask. I have a strong proficiency in the SDLC process and frontend + backend development.</p>
-                    <div className="flex-chips">
-                        <span className="chip-title">Tech stack:</span>
-                        {labelsFirst.map((label, index) => (
-                            <Chip key={index} className='chip' label={label} />
-                        ))}
+        <div className="container" id="expertise">
+            <div className="skills-container">
+                <h1>Expertise</h1>
+                <div className="skills-grid">
+                    <div className="skill">
+                        <FontAwesomeIcon icon={faAngular} size="3x" />
+                        <h3>Full Stack Web Development</h3>
+                        <p>As a Software Developer Intern at Zurich, I worked on both frontend and backend features for internal agent tools. I built custom C# APIs integrated with Angular, worked with SQL databases, and contributed to production deployments.</p>
+                        <div className="flex-chips">
+                            <span className="chip-title">Skills Utilized:</span>
+                            {labelsFirst.map((label, index) => (
+                                <Chip key={index} className='chip' label={label} />
+                            ))}
+                        </div>
                     </div>
-                </div>
 
-                <div className="skill">
-                    <FontAwesomeIcon icon={faDocker} size="3x"/>
-                    <h3>DevOps & Automation</h3>
-                    <p>Once the application is built, I help clients set up DevOps testing, CI/CD pipelines, and deployment automation to support the successful Go-Live.</p>
-                    <div className="flex-chips">
-                        <span className="chip-title">Tech stack:</span>
-                        {labelsSecond.map((label, index) => (
-                            <Chip key={index} className='chip' label={label} />
-                        ))}
+                    <div className="skill">
+                        <FontAwesomeIcon icon={faDocker} size="3x" />
+                        <h3>Simulation & Design Patterns</h3>
+                        <p>Worked on a drone package delivery simulator where I used design patterns like Strategy and Observer to build reusable, scalable components. I collaborated with a team to simulate real-world logistics and routing behavior.</p>
+                        <div className="flex-chips">
+                            <span className="chip-title">Skills Utilized:</span>
+                            {labelsSecond.map((label, index) => (
+                                <Chip key={index} className='chip' label={label} />
+                            ))}
+                        </div>
                     </div>
-                </div>
 
-                <div className="skill">
-                    <FontAwesomeIcon icon={faPython} size="3x"/>
-                    <h3>GenAI & LLM</h3>
-                    <p>Stay relevant in the market by leveraging the latest AI models in your projects. I have professional experience building enterprise grade GenAI-enabled solutions to empower intelligent decision making.</p>
-                    <div className="flex-chips">
-                        <span className="chip-title">Tech stack:</span>
-                        {labelsThird.map((label, index) => (
-                            <Chip key={index} className='chip' label={label} />
-                        ))}
+                    <div className="skill">
+                        <FontAwesomeIcon icon={faMicrosoft} size="3x" />
+                        <h3>DevOps & Agile</h3>
+                        <p>I’ve worked with tools like ADO, Docker, GitHub, and cloud platforms to automate builds, testing, and deployments. I’ve worked in CI/CD pipelines and been apart of a scrum in an Agile work environment.</p>
+                        <div className="flex-chips">
+                            <span className="chip-title">Skills Utilized:</span>
+                            {labelsThird.map((label, index) => (
+                                <Chip key={index} className='chip' label={label} />
+                            ))}
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
     );
 }
 
