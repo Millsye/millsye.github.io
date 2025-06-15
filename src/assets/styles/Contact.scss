@@ -46,3 +46,35 @@ form {
   width: 100% !important;
   margin-bottom: 15px !important;
 }
+
+.about-me-content {
+  .alternating-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+
+    .text-content {
+      flex: 1;
+      padding: 1rem;
+    }
+
+    .image-content {
+      flex: 1;
+      padding: 1rem;
+
+      img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+      }
+    }
+
+    &:nth-child(odd) {
+      flex-direction: row; // Text on left, image on right
+    }
+
+    &:nth-child(even) {
+      flex-direction: row-reverse; // Image on left, text on right
+    }
+  }
+}
