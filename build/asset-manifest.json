@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a67f3d32.css",
+    "main.js": "/static/js/main.9154c51f.js",
+    "static/js/453.b05d8aa5.chunk.js": "/static/js/453.b05d8aa5.chunk.js",
+    "static/media/bg-dark.png": "/static/media/bg-dark.05e61a8c45bb81af367a.png",
+    "static/media/bg-light.png": "/static/media/bg-light.bac0efb485244a522981.png",
+    "static/media/cybersecurity.png": "/static/media/cybersecurity.01b82e285c22026feb7a.png",
+    "static/media/outdoors.jpeg": "/static/media/outdoors.3def088b8dfb5a727417.jpeg",
+    "static/media/garden.png": "/static/media/garden.e688efbb2cf3db16860c.png",
+    "static/media/droneproject.jpeg": "/static/media/droneproject.2780d866b5df04d10244.jpeg",
+    "static/media/resume.png": "/static/media/resume.a752f847c5a2c80c5ba4.png",
+    "static/media/gophers.jpeg": "/static/media/gophers.962b9964ba17c40d7cae.jpeg",
+    "static/media/avatar.jpg": "/static/media/avatar.36e35e94d84362da3175.jpg",
+    "static/media/sportsmodel.jpeg": "/static/media/sportsmodel.51015cda3239ee65c676.jpeg",
+    "static/media/lists.png": "/static/media/lists.bd365239dfa4eb2cacee.png",
+    "index.html": "/index.html",
+    "main.a67f3d32.css.map": "/static/css/main.a67f3d32.css.map",
+    "main.9154c51f.js.map": "/static/js/main.9154c51f.js.map",
+    "453.b05d8aa5.chunk.js.map": "/static/js/453.b05d8aa5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a67f3d32.css",
+    "static/js/main.9154c51f.js"
+  ]
+}
