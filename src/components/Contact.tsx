@@ -46,6 +46,13 @@ function Contact() {
                 href={resume}
                 target="_blank"
                 rel="noopener noreferrer"
+                  sx={{
+                    backgroundColor: '#800000',
+                    color: '#fff',
+                    '&:hover': {
+                      backgroundColor: '#660000',
+                    },
+                  }}
               >
                 View My Resume
               </Button>
@@ -53,7 +60,7 @@ function Contact() {
             <div className="text-content">
               <h2>Contact Info</h2>
               <p>
-                Email: miles_ericson@icloud.common<br />
+                Email: miles_ericson@icloud.com<br />
                 School Email: erics184@umn.edu<br />
                 Phone: 763-760-0401<br />
               </p>
