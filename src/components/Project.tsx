@@ -3,7 +3,7 @@ import dronedelivery from '../assets/images/droneproject.jpeg';
 import sportsmodel from '../assets/images/sportsmodel.jpeg';
 import cybersecurity from '../assets/images/cybersecurity.png';
 import garden from '../assets/images/garden.png';
-import lists from '..assets/images/lists.png'
+import lists from '../assets/images/lists.png'
 import '../assets/styles/Project.scss';
 
 function Project() {
