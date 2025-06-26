@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a67f3d32.css",
-    "main.js": "/static/js/main.eccbc34d.js",
+    "main.js": "/static/js/main.9154c51f.js",
     "static/js/453.b05d8aa5.chunk.js": "/static/js/453.b05d8aa5.chunk.js",
     "static/media/bg-dark.png": "/static/media/bg-dark.05e61a8c45bb81af367a.png",
     "static/media/bg-light.png": "/static/media/bg-light.bac0efb485244a522981.png",
@@ -13,13 +13,14 @@
     "static/media/gophers.jpeg": "/static/media/gophers.962b9964ba17c40d7cae.jpeg",
     "static/media/avatar.jpg": "/static/media/avatar.36e35e94d84362da3175.jpg",
     "static/media/sportsmodel.jpeg": "/static/media/sportsmodel.51015cda3239ee65c676.jpeg",
+    "static/media/lists.png": "/static/media/lists.bd365239dfa4eb2cacee.png",
     "index.html": "/index.html",
     "main.a67f3d32.css.map": "/static/css/main.a67f3d32.css.map",
-    "main.eccbc34d.js.map": "/static/js/main.eccbc34d.js.map",
+    "main.9154c51f.js.map": "/static/js/main.9154c51f.js.map",
     "453.b05d8aa5.chunk.js.map": "/static/js/453.b05d8aa5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a67f3d32.css",
-    "static/js/main.eccbc34d.js"
+    "static/js/main.9154c51f.js"
   ]
 }
