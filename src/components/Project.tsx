@@ -3,6 +3,7 @@ import dronedelivery from '../assets/images/droneproject.jpeg';
 import sportsmodel from '../assets/images/sportsmodel.jpeg';
 import cybersecurity from '../assets/images/cybersecurity.png';
 import garden from '../assets/images/garden.png';
+import lists from '..assets/images/lists.png'
 import '../assets/styles/Project.scss';
 
 function Project() {
@@ -14,6 +15,11 @@ function Project() {
                     <a href="https://youtu.be/ACWOi3qdMEs" target="_blank" rel="noreferrer"><img src={dronedelivery} className="zoom" alt="thumbnail" width="100%" /></a>
                     <a href="https://youtu.be/ACWOi3qdMEs" target="_blank" rel="noreferrer"><h2>Drone Delivery Simulation</h2></a>
                     <p>Created extensions and improvements to a Drone Delivery System, implementing a Singleton and State design patterns to improve the simulations efficiency, scalability, and usability.</p>
+                </div>
+                <div className="project">
+                    <a href="https://the-listing-app.lovable.app" target="_blank" rel="noreferrer"><img src={lists} className="zoom" alt="thumbnail" width="100%" /></a>
+                    <a href="https://the-listing-app.lovable.app" target="_blank" rel="noreferrer"><h2>Simple List App</h2></a>
+                    <p>Developed a simple web application for making lists of any kind. Uses local storage to save progress while having a clean and minimal UI design. Made with Loveable and VS Code.</p>
                 </div>
                 <div className="project">
                     <a href="https://garden-tracker.lovable.app" target="_blank" rel="noreferrer"><img src={garden} className="zoom" alt="thumbnail" width="100%" /></a>
