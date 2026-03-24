@@ -2,8 +2,8 @@ import React from "react";
 import dronedelivery from '../assets/images/droneproject.jpeg';
 import sportsmodel from '../assets/images/sportsmodel.jpeg';
 import cybersecurity from '../assets/images/cybersecurity.png';
-import garden from '../assets/images/garden.png';
-import lists from '../assets/images/lists.png'
+import uce from '../assets/images/uce.png';
+import nflml from '../assets/images/nflml.png';
 import '../assets/styles/Project.scss';
 
 function Project() {
@@ -12,19 +12,20 @@ function Project() {
             <h1>Personal Projects</h1>
             <div className="projects-grid">
                 <div className="project">
+                    <a href="https://www.linkedin.com/in/milesericson/" target="_blank" rel="noreferrer"><img src={nflml} className="zoom" alt="thumbnail" width="100%" /></a>
+                    <a href="https://www.linkedin.com/in/milesericson/" target="_blank" rel="noreferrer"><h2>ML NFL WR Breakouts Model</h2></a>
+                    <p>Set up a KNN and a neural network model both with goals of predicting a top 20 PPR finish. We then tested our model on the 2023 rookies and got back the probabilities of a top 20 finish. The 2023 KNN model has correctly predicted 5 WRs as they wrap up their 3rd year in the NFL.
+                    </p>
+                </div>
+                <div className="project">
+                    <a href="https://docs.google.com/document/d/1MCwfnSMK47903LsnqT0-RX_2CIyQXcNHGrSkX-S5OE8/edit?usp=sharing" target="_blank" rel="noreferrer"><img src={uce} className="zoom" alt="thumbnail" width="100%" /></a>
+                    <a href="https://docs.google.com/document/d/1MCwfnSMK47903LsnqT0-RX_2CIyQXcNHGrSkX-S5OE8/edit?usp=sharing" target="_blank" rel="noreferrer"><h2>Ultraconserved Elements and The Phylogenetic Tree Study</h2></a>
+                    <p>In my CSCI 5481 class, I decided to study the purpose of ultraconserved elements for my final project. These results show that only the longest and most conserved sequences remain detectable across deep evolutionary time (back to vertebrates).</p>
+                </div>
+                <div className="project">
                     <a href="https://youtu.be/ACWOi3qdMEs" target="_blank" rel="noreferrer"><img src={dronedelivery} className="zoom" alt="thumbnail" width="100%" /></a>
                     <a href="https://youtu.be/ACWOi3qdMEs" target="_blank" rel="noreferrer"><h2>Drone Delivery Simulation</h2></a>
                     <p>Created extensions and improvements to a Drone Delivery System, implementing a Singleton and State design patterns to improve the simulations efficiency, scalability, and usability.</p>
-                </div>
-                <div className="project">
-                    <a href="https://the-listing-app.lovable.app" target="_blank" rel="noreferrer"><img src={lists} className="zoom" alt="thumbnail" width="100%" /></a>
-                    <a href="https://the-listing-app.lovable.app" target="_blank" rel="noreferrer"><h2>Simple List App</h2></a>
-                    <p>Developed a simple web application for making lists of any kind. Uses local storage to save progress while having a clean and minimal UI design. Made with Loveable and VS Code.</p>
-                </div>
-                <div className="project">
-                    <a href="https://garden-tracker.lovable.app" target="_blank" rel="noreferrer"><img src={garden} className="zoom" alt="thumbnail" width="100%" /></a>
-                    <a href="https://garden-tracker.lovable.app" target="_blank" rel="noreferrer"><h2>Garden Tracker App</h2></a>
-                    <p>Made a home garden tracker app that visually displays your home garden and what crops are planted where, with watering overdue notifications as well. Made using Loveable and Supabase, utilizing AI and databases.</p>
                 </div>
                 <div className="project">
                     <a href="https://coursera.org/share/609a2c917e2a3e102ae8e553629875d1" target="_blank" rel="noreferrer"><img src={cybersecurity} className="zoom" alt="thumbnail" width="100%" /></a>

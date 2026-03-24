@@ -24,14 +24,9 @@ const labelsSecond = [
 ];
 
 const labelsThird = [
-    "Azure DevOps",
-    "Docker",
-    "Github",
-    "Python",
-    "Java",
-    "C",
-    "C++",
-    "OCaml"
+    "Data Modeling",
+    "PowerBI",
+    "Microsoft Fabric"
 ];
 
 function Expertise() {
@@ -66,8 +61,8 @@ function Expertise() {
 
                     <div className="skill">
                         <FontAwesomeIcon icon={faMicrosoft} size="3x" />
-                        <h3>DevOps & Agile</h3>
-                        <p>I’ve worked with tools like ADO, Docker, GitHub, and cloud platforms to automate builds, testing, and deployments. I’ve worked in CI/CD pipelines and been apart of a scrum in an Agile work environment.</p>
+                        <h3>Data Modeling</h3>
+                        <p>At Pentair, I will be working on a data modeling project utilizing PowerBI and Microsoft Fabric.</p>
                         <div className="flex-chips">
                             <span className="chip-title">Skills Utilized:</span>
                             {labelsThird.map((label, index) => (
